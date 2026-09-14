@@ -1,0 +1,5 @@
+Flask>=3.0,<4
+TensorFlow==2.20.0
+Keras==3.13.2
+Pillow>=10,<13
+numpy>=1.26,<3
