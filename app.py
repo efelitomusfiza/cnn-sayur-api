@@ -10,7 +10,7 @@ from flask import Flask, jsonify, request
 from PIL import Image, UnidentifiedImageError
 
 BASE_DIR = Path(__file__).resolve().parent
-MODEL_PATH = Path(os.getenv("CNN_MODEL_PATH", BASE_DIR / "model" / "model_cnn_brokoli_kembangkol.keras"))
+MODEL_PATH = Path(os.getenv("CNN_MODEL_PATH", BASE_DIR / "model_cnn_brokoli_kembangkol.keras"))
 IMG_SIZE = (150, 150)
 MAX_UPLOAD_BYTES = 8 * 1024 * 1024
 ALLOWED_MIME = {"image/jpeg", "image/png", "image/webp"}
